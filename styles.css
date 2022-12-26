@@ -1,0 +1,299 @@
+body{
+    padding:0;
+    margin:0;
+}
+.title-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/main.jpg");
+     padding-bottom:6%;
+     width:100%;
+}
+.title-image1{
+  height: 7rem;
+}
+
+.btn1{
+    color:#fff;
+}
+
+.btn1:hover{
+    color:#fff;
+    text-decoration: none;
+  }
+
+  /*Navigation Bar*/
+
+  .break{
+    position: relative;
+    /* top: 20px;*/
+    padding:0;
+    margin:0;
+    border: none;
+    height: 8px;
+    background-color:rgb(44, 41, 41);
+    /* margin-bottom: 50px; */
+}
+
+.navbar{
+    padding:0 0 4rem;
+      
+}
+.navbar-nav{
+    padding:2%;
+}
+.navbar-brand{
+font-family:"Ubuntu";
+font-size:2.5rem;
+font-weight:bold;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat-Light";
+    
+}
+.Sign1{
+    color:aliceblue;
+}
+.Sign1:hover{
+    color:aliceblue;
+}
+.border{
+   border-radius:0.4rem;
+   color:aliceblue;
+   margin-right:2rem;
+}
+
+.drop{
+    background-color: gray;
+    color:aliceblue;
+}
+.big-heading{
+    text-align: center;
+    padding-top:6%;
+   color:aliceblue;
+   font-weight: bold;
+   font-size: 4rem;
+}
+.small-heading{
+    text-align:center;
+    color:aliceblue;
+    
+}
+.extra-small{
+    text-align:center;
+    color:aliceblue;
+    padding-top:1%;
+}
+.container{
+    text-align: center;
+    padding:1% 50% 1% 20%;
+}
+.btn1{
+    height: 4rem;
+    width:15rem;
+    margin:0;
+    padding-left:0;
+}
+
+.email{
+    margin:0;
+    height:4rem;
+    width:30rem;
+    padding-right:0;
+}
+hr {
+    border: dotted  6px;
+    border-bottom: none;
+    width: 5%;
+    height: 0px;
+    margin: 100px auto;
+}
+.black-section{
+    padding: 70px ;
+   background-color:black;
+   color:aliceblue;
+}
+
+.feature-box{
+  margin-top: 1%;
+    font-weight:bold;
+    font-size: 3rem;
+    text-align:center;
+    margin-bottom:5%;
+}
+
+
+.feature-title{
+    font-weight:bold;
+     margin-top: 15%;
+}
+
+.vid video{
+   width:50%;
+   margin-right:4%;
+   z-index:-1;
+   margin-bottom:12%;
+}
+.vid img{
+position:absolute;
+width:67%;
+height:125%;
+right:18%;
+bottom:1%;
+}
+
+.vid1 video{
+    margin-top:5%;
+    width:39%;
+    z-index:-1;
+    top:1%;
+}
+.vid1 img{
+    position:absolute;
+    width:63%;
+   height:150%;
+   right:18%;
+}
+.black-section1{
+    background-color:black;
+}
+
+.feature-box1{
+    margin-left:10%;
+}
+.black-section1{
+    color:aliceblue;
+}
+
+.mobile{
+    z-index:1;
+}
+
+.book{
+    height:110px;
+    width:80px;
+
+}
+.our-story-card-animation{
+    display:flex;
+    position:absolute;
+    border:2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.4em;
+    left:33%;
+     bottom:4%;
+    background-color:black ;
+}
+
+.our-story-card-animation-text{
+    margin-top:9%;
+    font-size:0.9rem;
+}
+
+.our-story-card-image{
+margin-right:30px;
+}
+
+.text-1{
+    color:#0071eb;
+}
+.list{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer{
+    padding-top:5%;
+    font-size:3rem;
+    text-align:center;
+}
+
+.list h1{
+    color:#fff;
+    font-size:3rem;
+    padding:3rem 0 4 rem 0;
+}
+
+.title{
+    background:#303030;
+    padding:20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    font-size:1.7rem;
+    font-weight:400;
+}
+
+.title:hover{
+ text-decoration:wavy;
+ color:#fff;
+}
+
+.text{
+    background:#303030;
+    line-height: 35px;
+    margin:3px 0;
+    color:#fff;
+    font-size:1.7rem;
+    font-weight:400;
+    height:0;
+    opacity: 0;
+}
+
+.item:target .text{
+    opacity:1;
+    height:auto;
+    padding:20px 30px;
+    margin:0;
+    border-top:2px solid #000;
+    margin-bottom:6px;
+}
+
+.btn-group{
+    padding-left:30%;
+}
+.question{
+    background-color:gray;
+    margin:0;
+}
+.last-container{
+    padding-bottom: 4%;
+}
+.last{
+    padding-top:5%;
+    text-align:center;
+}
+.last1{
+    color:gray;
+    /* padding:0 20%; */
+}
+.num{
+    color:gray;
+}
+.num:hover{
+    color:gray;
+}
+.txt:hover {
+    color:grey;
+    text-decoration: underline;
+}
+.txt{
+    font-size:1rem;
+    color:gray;
+    padding-right:5rem;   
+}
+.bullet{
+    list-style-type:none;
+}
+
+.name{
+    padding-top:2rem;
+}
