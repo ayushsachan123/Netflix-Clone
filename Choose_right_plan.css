@@ -1,0 +1,256 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .logo img{
+    height:83px;
+    width:167px;
+  }
+
+  .header{
+    padding:1px 40px;
+    position:relative;
+    z-index:10;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+  }
+  
+  .wrapper{
+    background-color:#f3f3f3;
+  background-image: cover;
+  background-repeat: no-repeat;
+  position:relative;
+  width:100%;
+  }
+  
+  .logo{
+    display:flex;
+  }
+.sign1{
+  width:100%;
+  display:block;
+  text-align: right;
+  padding-top:1.5%;
+}
+
+.sign{
+  color: #333;
+  font-size: 20px;
+  font-weight:bold;
+}
+.sign:hover{
+color:#333;
+}
+
+  .stepHeader{
+    text-align:center;
+    text-align:left;
+}
+  .simpleContainer{
+    padding-top: 2%;
+    width:100%;
+   color: #333;
+   font-size:16px;
+   background-color:#fff;
+   display:block;
+   padding-bottom:95px;
+  }
+
+
+.centerContainer{
+    display:block;
+    box-sizing:border-box;
+    margin:0 auto 15px;
+    max-width: 978px;
+   
+}
+.regContainer{
+    margin:0 auto;
+    max-width:95%;
+   
+}
+
+.stepLogoContainer{
+    display:inline-block;
+    padding-bottom:1rem;
+}
+
+.colour{
+    color:#e50914;
+    height: 49px;
+    width: 26px;
+}
+
+.contextBody{
+    text-align:left;
+}
+
+.checkmark-group{
+    list-style-type:none;
+}
+
+.checkmark-group-text{
+    font-size:22px;
+    margin-left:10px;
+}
+
+.planGrid_Selector{
+    padding-left:34%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.box{
+    background-color: red;
+    text-align:center;
+    color:#fff;
+    height:124px;
+    width:124px;
+    margin:0 19px;
+}
+
+.txt1{
+    margin-top:40%;
+    font-weight: 500;
+}
+
+.featureTable{
+  display:flex;
+  flex-direction: column;
+  padding-bottom:10px;
+
+}
+
+.featureTableRow{
+  border-bottom:1px solid #ccc;
+  min-height:60px;
+  align-items:center;
+  display:flex;
+}
+
+.planGrid_cell{
+  width:36%;
+  color:#333;
+  text-align:left;
+  padding:12px 16px;
+  font-size: 16px;
+}
+
+.planGrid_cell1{
+  width:15%;
+ text-align:center;
+}
+
+.planGrid1{
+margin-left:15px;
+}
+
+.grid{
+  /* text-align:left; */
+  font-size:14px;
+}
+.planGrid_cell2{
+  margin-right:200px;
+}
+.planGrid__supportedDevicesIcon{
+  height: 26px;
+    margin-bottom: -2px;
+    margin-top: 6px;
+    width: 26px;
+    margin-left:10px;
+}
+
+.planGrid__disclaimer{
+  color: #737373;
+    display: block;
+    font-size: 13px;
+    padding: 0 150px 0 16px;
+}
+
+.submitBtnContainer{
+  width:48%;
+  margin-left:26%;
+  margin-top:24px;
+  text-align:center;
+  display:block;
+}
+
+.btn1{
+  width:100%;
+  border-color:#e50914;
+  border-radius:4px;
+  font-size:24px;
+  font-weight: 400;
+  min-height:64px;
+  background-color: #e50914;
+  color: #fff;
+}
+
+.btn1:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+.site-footer-wrapper{
+  margin-top:1%;
+    z-index:100;
+    position:relative;
+    background-color:#f3f3f3;
+    min-width:190px;
+    width:100%;
+    color:#737373;;
+    font-size:0.8rem;
+    padding-bottom:5rem;
+  
+  }
+  .site-footer{
+    margin:0 25%;
+    color:#737373;
+  }
+  .footer-top{
+    font-size:1rem;
+  }
+  .call{
+    color:#737373;
+  }
+  .call:hover{
+    color:#737373;;
+  }
+  
+  .footer-links{
+    list-style-type:none;
+  }
+  .footer-link:hover{
+    color:#737373;;
+  }
+  
+  .footer-link-item span{
+    color:#737373;;
+  }
+  .navbar{
+    width: 130px;
+    border: 1px solid #737373;
+  }
+  .navbar:hover{
+    color:#737373;
+  }
+  .fa-solid{
+    padding-right:1rem;
+  }
+  .box1{
+    margin-top:1rem;
+    margin-left: 25%;
+  
+  }
+
+
+  /* index.js */
+
+  .small-title{
+     color:red;
+     
+  }
