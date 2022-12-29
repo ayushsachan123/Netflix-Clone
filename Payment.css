@@ -1,0 +1,240 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .logo img{
+    height:83px;
+    width:167px;
+  }
+
+  .header{
+    padding:1px 40px;
+    position:relative;
+    z-index:10;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+  }
+  
+  .wrapper{
+    background-color:#f3f3f3;
+  background-image: cover;
+  background-repeat: no-repeat;
+  position:relative;
+  width:100%;
+  }
+
+  .logo{
+    display:flex;
+  }
+
+.sign1{
+  width:100%;
+  display:block;
+  text-align: right;
+  padding-top:1.5%;
+}
+
+  .sign{
+     color: #333;
+     font-size: 20px;
+     font-weight:bold;
+  }
+.sign:hover{
+  color:#333;
+}
+
+.stepHeader{
+    text-align:center;
+}
+  .simpleContainer{
+    padding-top: 2%;
+    width:100%;
+   color: #333;
+   font-size:16px;
+   background-color:#fff;
+   display:block;
+   padding-bottom:95px;
+  }
+
+
+.centerContainer{
+    display:block;
+    box-sizing:border-box;
+    margin:0 auto 15px;
+    max-width: 978px;
+   
+}
+.regContainer{
+    margin:0 auto;
+    max-width:500px;
+   
+}
+
+.stepLogoContainer{
+    display:inline-block;
+    padding-bottom:1rem;
+   
+}
+
+.img{
+    height:50px;
+    margin-bottom:22px;
+}
+
+.content{
+    text-align:center;
+}
+
+.content1{
+    text-align:center;
+    display:block;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secure-server-badge--text{
+    text-align:right;
+}
+.secure-server-badge--icon{
+    height:16px;
+    width:16px;
+    margin-left:2px;
+}
+
+.TabSelectionWrapper{
+    align-items: center;
+    display: flex;
+    height: auto;
+    min-height: 60px;
+    text-decoration: none;
+    position: relative;
+    text-align: left;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.NameAndLogos{
+    width:100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: flex-start;
+    padding: 15px 0;
+}
+
+.tabSelection{
+color:#333;
+}
+.tabSelection:hover{
+color:#333;
+text-decoration:none;
+}
+.TabSelection-text{
+    float: none;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 5px;
+    max-width: none;
+}
+ .selectionLabel{
+    line-height: 20px;
+    min-height: 20px;
+   display: block;
+} 
+
+ .logoContainer{
+    line-height: 20px;
+    min-height: 20px;
+    margin: 0 15px;
+    overflow: hidden;
+    display: block;
+   max-width:100%;
+} 
+
+.logo-inline{
+    float: none;
+    margin-top: -4px;
+    white-space: nowrap;
+    line-height: normal;
+    max-height: 60px;
+    display: inline-block;
+    overflow: auto;
+    vertical-align: middle;
+    max-width:500px;
+}
+.icon{
+  display:inline-block;
+  align-items: center;
+  padding-left:55px;
+
+}
+.logoIcon{
+    margin-right: 6px;
+    margin-top: 4px;
+    width: auto;
+    height: 25px;
+}
+
+.icon img{
+  height:25px;
+}
+
+.site-footer-wrapper{
+  margin-top:1%;
+    z-index:100;
+    position:relative;
+    background-color:#f3f3f3;
+    min-width:190px;
+    width:100%;
+    color:#737373;;
+    font-size:0.8rem;
+    padding-bottom:5rem;
+  
+  }
+  .site-footer{
+    margin:0 25%;
+    color:#737373;
+  }
+  .footer-top{
+    font-size:1rem;
+  }
+  .call{
+    color:#737373;
+  }
+  .call:hover{
+    color:#737373;;
+  }
+  
+  .footer-links{
+    list-style-type:none;
+  }
+  .footer-link:hover{
+    color:#737373;;
+  }
+  
+  .footer-link-item span{
+    color:#737373;;
+  }
+  .navbar{
+    width: 130px;
+    border: 1px solid #737373;
+  }
+  .navbar:hover{
+    color:#737373;
+  }
+  .fa-solid{
+    padding-right:1rem;
+  }
+  .box1{
+    margin-top:1rem;
+    margin-left: 25%;
+  
+  }
+  
